@@ -8,5 +8,5 @@ then compile and run the project via the following command:
 : make all
 ** Compile
 : make clean compile
-** Display a bug
+** Run the fizzbuzz program
 : make run
