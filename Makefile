@@ -5,5 +5,6 @@ clean:
 compile:
 	nasm -g -f elf64 -F dwarf -l test.lst  test.s
 	gcc -m64 -o test  test.o
+run:
 	./test
-all: clean compile
+all: clean compile run

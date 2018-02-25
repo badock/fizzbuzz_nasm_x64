@@ -1,0 +1,12 @@
+* fizzbuzz_nasm_x64
+This project is an implementation of the fizz buzz game using the nasm (x64) flavor of the assembly language.
+** Getting Started
+clone the project via the follwing command:
+: git clone https://github.com/badock/fizzbuzz_nasm_x64.git
+
+then compile and run the project via the following command:
+: make all
+** Compile
+: make clean compile
+** Display a bug
+: make run
